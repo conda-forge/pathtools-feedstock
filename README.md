@@ -15,14 +15,15 @@ Python API library for common path and pattern functionality.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pathtools-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pathtools-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/pathtools-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pathtools-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pathtools-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pathtools-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/pathtools-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/pathtools-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pathtools/badges/version.svg)](https://anaconda.org/conda-forge/pathtools)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pathtools/badges/downloads.svg)](https://anaconda.org/conda-forge/pathtools)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-pathtools-green.svg)](https://anaconda.org/conda-forge/pathtools) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pathtools.svg)](https://anaconda.org/conda-forge/pathtools) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pathtools.svg)](https://anaconda.org/conda-forge/pathtools) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pathtools.svg)](https://anaconda.org/conda-forge/pathtools) |
 
 Installing pathtools
 ====================
@@ -67,6 +68,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
